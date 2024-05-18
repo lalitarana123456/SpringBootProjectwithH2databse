@@ -1,0 +1,19 @@
+
+<<<<<<<TESTING CODE FOR REUSE>>>>>>>
+1 - welcomeTest()
+URL - http://localhost:8083/welcome
+OUTPUT - Welcome to spring project
+
+2 - saveProjectHandler(@RequestBody Project project)
+URL - http://localhost:8083/projects
+OUTPUT -
+
+3 - getAllProjectsHandler()
+URL - http://localhost:8083/projects
+
+4 - updateProjectHandler(@RequestBody Project project, @PathVariable("id") Integer projectId)
+URL - http://localhost:8083/projects?id=1
+OUTPUT -
+
+5 - deleteProjectHandler(@PathVariable("id") Integer projectId)
+URL - http://localhost:8083/projects?id=2
